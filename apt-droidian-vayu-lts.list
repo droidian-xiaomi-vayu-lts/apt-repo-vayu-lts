@@ -1,0 +1,1 @@
+deb [arch=all,arm64,amd64 signed-by=/usr/share/keyrings/apt-droidian-vayu-lts.gpg] https://droidian-xiaomi-vayu-lts.github.io/apt-repo-vayu-lts current main
