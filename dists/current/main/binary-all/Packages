@@ -1,0 +1,34 @@
+Package: apt-config-droidian-vayu-lts-current
+Architecture: all
+Version: 1+git20260105214207.bdc337f.main.current
+Priority: optional
+Section: misc
+Maintainer: berbascum <berbascum@ticv.cat>
+Installed-Size: 20
+Pre-Depends: apt
+Depends: ca-certificates, apt-keyrings-droidian-vayu-lts
+Filename: pool/current/main/binary-all/apt-config-droidian-vayu-lts-current_1+git20260105214207.bdc337f.main.current_all.deb
+Size: 2768
+MD5sum: 9f10e37e14a94ec2af6e0e34354cb06c
+SHA1: d169730a924b056ae0d94416e2f116b5c75ea326
+SHA256: 477aa0fc4cee930b7fc2b117549c9b17b6560e7e7ff24d2a6b9f7daa96c4656e
+SHA512: 5a49e7d9aa73cf3f0d97f4797692fef51e2aad5313dc4090e997749a20161b732a71fbbc226d597813bc30c04e2f0ff5e533e9fa08ed66b7603f95a4273a280c
+Description: APT current configs for the Droidian Unofficial Xiaomi POCO X3 Pro (vayu) - LTS port
+
+Package: apt-keyrings-droidian-vayu-lts
+Architecture: all
+Version: 1+git20260106014543.ca6dd0d.main.current
+Priority: optional
+Section: misc
+Maintainer: berbascum <berbascum@ticv.cat>
+Installed-Size: 15
+Pre-Depends: apt
+Depends: ca-certificates
+Filename: pool/current/main/binary-all/apt-keyrings-droidian-vayu-lts_1+git20260106014543.ca6dd0d.main.current_all.deb
+Size: 3172
+MD5sum: 855d504be81c78832176df7d94e13769
+SHA1: 2648d14b467e4049e3aedbcd70fc6ca409e8d51f
+SHA256: 99cbcf01a345f55a491653aacbbeaf8267efbcaadf28ac27b472e5c06f368067
+SHA512: b9044e1656929ce8c6d41f1206494b16d8bc2fc84e72b6e7149515e2162fb572953ce8843508fddf386fa328a5356bc710b8c4c6c1981c6c6f28ef60a2173f47
+Description: APT keyrings for the Droidian Unofficial Xiaomi POCO X3 Pro (vayu) - LTS port
+
