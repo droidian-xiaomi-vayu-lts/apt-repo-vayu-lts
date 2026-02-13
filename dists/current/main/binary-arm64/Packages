@@ -14,6 +14,22 @@ SHA256: a8e2a6e9637caa604b010c7c09931717e59408f212859330c9fe7dc34cab8310
 SHA512: dae42c908a60bea71dc94822b52d13a241a96c8898ea9463365c85ae41772fa2969cfbd4bcbca4f826a035fbab28de9fadd9eee3e69d23229b31f5174062b628
 Description: Community adaptation for xiaomi-vayu LTS api30 - adaptation configurations
 
+Package: adaptation-droidian-xiaomi-vayu-lts-api30-configs
+Architecture: arm64
+Version: 2+git20260213222437.1393f21.droidian.sid.current
+Priority: optional
+Section: metapackages
+Source: adaptation-droidian-xiaomi-vayu-lts-api30
+Maintainer: berbascum <berbascum@ticv.cat>
+Installed-Size: 495
+Filename: pool/current/main/binary-arm64/adaptation-droidian-xiaomi-vayu-lts-api30-configs_2+git20260213222437.1393f21.droidian.sid.current_arm64.deb
+Size: 106808
+MD5sum: 609a77357f1b0118182c6c618b886ac5
+SHA1: 8703130e6534dfebad2bdca6e8531cfa95b32c4d
+SHA256: 0dc52e12388cff27c083e69a653e46947959dfb64ca0c7788495231da1297a4e
+SHA512: 08bfdaa63402d818a9aa1dba1874d6b7ed8aec09ff0d208c3dcbbed71e4506c965fd5d6fb924f7bcf9a6b15aadb64368f48d9b13455ea0d624578f495f471ab9
+Description: Community adaptation for xiaomi-vayu LTS api30 - adaptation configurations
+
 Package: adaptation-droidian-xiaomi-vayu-lts-api30
 Architecture: arm64
 Version: 1+git20260213002914.a433fb4.droidian.sid.current
@@ -28,6 +44,22 @@ MD5sum: fddc05cf13c9996ff8dd90096ea6eaf0
 SHA1: 73e44b4d80ada11a4fdfc922c3f2205294d7a472
 SHA256: ab3be4b67af27d3787ae6f19f5bab17c2e6e70b59bb8c1ede333f2e76b5213eb
 SHA512: c1250adbc96e6601bcbd73eea9322b840f564c5bd81eec386a9314135af8496b4561a90f5b3e14353babfab42e9bb76b9e11b28020507882c889ecaa60696fff
+Description: Community adaptation for xiaomi-vayu LTS api30 - metapackage
+
+Package: adaptation-droidian-xiaomi-vayu-lts-api30
+Architecture: arm64
+Version: 2+git20260213222437.1393f21.droidian.sid.current
+Priority: optional
+Section: metapackages
+Maintainer: berbascum <berbascum@ticv.cat>
+Installed-Size: 9
+Depends: adaptation-hybris-api30-phone, adaptation-droidian-xiaomi-vayu-lts-api30-configs (= 2+git20260213222437.1393f21.droidian.sid.current)
+Filename: pool/current/main/binary-arm64/adaptation-droidian-xiaomi-vayu-lts-api30_2+git20260213222437.1393f21.droidian.sid.current_arm64.deb
+Size: 2692
+MD5sum: 346c117817b11236e289645df35bb8ee
+SHA1: ec930a71fb7822e084d186497346a0d3b4746be4
+SHA256: 28c7ac475d16c2fce2eae83a3f569ab4778e550981aacecb6666f045de3c53c3
+SHA512: e9b23df161333d51fa89c753acea18aec2c409952469c49925610961c6fa3e5f7c73dd8bb115fb9d29a013f9a37342ea7f9b6ac8f41c6c75b03ecd359124368f
 Description: Community adaptation for xiaomi-vayu LTS api30 - metapackage
 
 Package: flashlightd-dbgsym
