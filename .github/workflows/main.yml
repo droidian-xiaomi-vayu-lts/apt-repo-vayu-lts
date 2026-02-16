@@ -52,7 +52,7 @@ jobs:
       - name: Commit and push changes
         env:
           USER: ${{github.repository_owner}}
-          EMAIL: du.vayults@ticv.cat@ticv.cat
+          EMAIL: du.vayults@ticv.cat
           REPO: ${{github.event.repository.name}}
           BRANCH: main
           GPG_KEY_ID: ${{ secrets.GPG_APT_SIGN_KEY_ID }}
