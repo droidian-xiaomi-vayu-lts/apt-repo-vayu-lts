@@ -27,7 +27,7 @@ jobs:
       - name: Import GPG key and setup gpg
         env:
           GPG_TTY: $(tty)
-          GPG_PRIVATE_KEY: ${{ secrets.GPG_APT_SIGN_PRIV_KEY }}
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_APT_SIGN_KEY }}
           GPG_PASSPHRASE: ${{ secrets.GPG_APT_SIGN_PASSPHRASE }}
         run: |
           echo "$GPG_PRIVATE_KEY" | gpg --import --batch
