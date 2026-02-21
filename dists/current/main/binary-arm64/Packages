@@ -34,6 +34,47 @@ Description: Community adaptation for xiaomi-vayu LTS api30 - metapackage
 X-Droidian-Vcs-Revision: d82d41e4d330a50cdb8081b895e83484df397ab8
 X-Droidian-Vcs-Url: https://github.com/droidian-xiaomi-vayu-lts/adaptation-droidian-xiaomi-vayu-lts-api30.git
 
+Package: droidian-camera-qt6-dbgsym
+Architecture: arm64
+Version: 17+b1+git20260221021322.f39e6fd.next.hybris.compat.vayu
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: droidian-camera-qt6
+Maintainer: Alexander Rutz <alex@familyrutz.com>
+Installed-Size: 3212
+Depends: droidian-camera-qt6 (= 17+b1+git20260221021322.f39e6fd.next.hybris.compat.vayu)
+Filename: pool/current/main/binary-arm64/droidian-camera-qt6-dbgsym_17+b1+git20260221021322.f39e6fd.next.hybris.compat.vayu_arm64.deb
+Size: 2919656
+MD5sum: 920962a0a5cd34dc10b3cc58f72e02ef
+SHA1: 3f9c186195d63394acb0881d3e1e62a223b43f33
+SHA256: 608621025db2071f729d2e400241f4f0186fb65bfb44352033188866d2d47b46
+SHA512: 863ad1f8db1c8660b343f4d2154420eb165b0e683d7e99991d34bd941358ab81886f70abe43d48289253c0d22434b6689cbd76abe49b6d0766120a616809c11e
+Description: debug symbols for droidian-camera-qt6
+Build-Ids: 1f90e39cb31b8e0d0e44ce706688f70f580a1f5c 294c9b07eab5d4c36393a4af0c64f9622dd7b55f 2cef8052ace43725d4a2aa39ae505793bd5685a7 3e04852f4963385520f583ea44e4c965204895ae 730aeac72a2975d2440a38f70571eacee4d15169
+X-Droidian-Vcs-Revision: f39e6fdea4dbb825e96e24adc281be124ed9be89
+X-Droidian-Vcs-Url: https://github.com/droidian/droidian-camera
+
+Package: droidian-camera-qt6
+Architecture: arm64
+Version: 17+b1+git20260221021322.f39e6fd.next.hybris.compat.vayu
+Priority: optional
+Section: graphics
+Maintainer: Alexander Rutz <alex@familyrutz.com>
+Installed-Size: 641
+Depends: libavcodec61 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.0), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.26.0), libhybris (>= 0.0.5.53), libmedia1 (>= 0.0.5.53), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6multimedia6 (>= 6.6.1), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6sensors6 (>= 6.6.1), libstdc++6 (>= 11), libswscale8 (>= 7:7.0), libqt6core6, libqt6quickcontrols2-6, libglib2.0-0, qml6-module-qtquick-layouts, qml6-module-qtquick-controls, qml6-module-qtquick-effects, qml6-module-qtmultimedia, qml6-module-qtquick-templates, qml6-module-qt-labs-platform, fonts-material-design-icons-iconfont
+Filename: pool/current/main/binary-arm64/droidian-camera-qt6_17+b1+git20260221021322.f39e6fd.next.hybris.compat.vayu_arm64.deb
+Size: 113604
+MD5sum: 5bdede05f5bbf679ec83eeb2882310b0
+SHA1: ea22233a48a3c0c8479aaec7264b22388fc8df85
+SHA256: 6551a2aef42f8064ebe4b13781e0c234d475e03a0ee969ab294b5f9334cd4a5c
+SHA512: a9339f176f71007a83b72abe9ab78d64d1786e5a15b61493bc5aae2425cd1b34cc73512a549a2d837da65058d165c1a36d4118f962374040e5654b39aff02c7a
+Homepage: https://github.com/droidian/droidian-camera
+Description: Qt6 camera app using libhybris to access Android camera HAL
+  Provides camera support through libhybris and Qt6.
+X-Droidian-Vcs-Revision: f39e6fdea4dbb825e96e24adc281be124ed9be89
+X-Droidian-Vcs-Url: https://github.com/droidian/droidian-camera
+
 Package: flashlightd-dbgsym
 Architecture: arm64
 Version: 14+z10+git20251221073047.f282413.max.brightness.berb
