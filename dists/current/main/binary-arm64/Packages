@@ -1,37 +1,37 @@
 Package: adaptation-droidian-xiaomi-vayu-lts-api30-configs
 Architecture: arm64
-Version: 4+git20260219215731.d82d41e.head
+Version: 5+git20260222220156.56f6035.head
 Priority: optional
 Section: metapackages
 Source: adaptation-droidian-xiaomi-vayu-lts-api30
 Maintainer: berbascum <berbascum@ticv.cat>
-Installed-Size: 508
-Filename: pool/current/main/binary-arm64/adaptation-droidian-xiaomi-vayu-lts-api30-configs_4+git20260219215731.d82d41e.head_arm64.deb
-Size: 108404
-MD5sum: e42416398cd441d7aca35cd6ace9b87d
-SHA1: 6471db98801e1986d62322d84d3d8677cf98ca6c
-SHA256: 5fbcfebb6f8a071553209bf81e3b7792c6d2866076cf49d46387265508470d86
-SHA512: 2e9bd977b59f856d8d418476dd6660a7df1d9e389fb287d6b9090cf183baeb27a8bde1da3bb254977d0fd228e0ef215e7b2b4af90d26c37c76f109a5ec40eee2
+Installed-Size: 571
+Filename: pool/current/main/binary-arm64/adaptation-droidian-xiaomi-vayu-lts-api30-configs_5+git20260222220156.56f6035.head_arm64.deb
+Size: 111636
+MD5sum: de5645474f1c4d5d1f07779121d6a986
+SHA1: c3d6c1677bffc1b79a60e1ce21b4a684ac289cda
+SHA256: 1e7399cef1dec89c18cb2e05f4139db0b35863af1f568cc4a305ec6151492a6d
+SHA512: acc6077533a1a6d16ef419f0298cd50044545faae9ff779965e8ea7c84d60a41f4875fc563fedc36a73c1089b647806b71d44cd736e67c343580029f5c4b29ba
 Description: Community adaptation for xiaomi-vayu LTS api30 - adaptation configurations
-X-Droidian-Vcs-Revision: d82d41e4d330a50cdb8081b895e83484df397ab8
+X-Droidian-Vcs-Revision: 56f6035a2da1620702267cbdb1bf7b85965c69b1
 X-Droidian-Vcs-Url: https://github.com/droidian-xiaomi-vayu-lts/adaptation-droidian-xiaomi-vayu-lts-api30.git
 
 Package: adaptation-droidian-xiaomi-vayu-lts-api30
 Architecture: arm64
-Version: 4+git20260219215731.d82d41e.head
+Version: 5+git20260222220156.56f6035.head
 Priority: optional
 Section: metapackages
 Maintainer: berbascum <berbascum@ticv.cat>
 Installed-Size: 9
-Depends: adaptation-hybris-api30-phone, adaptation-droidian-xiaomi-vayu-lts-api30-configs (= 4+git20260219215731.d82d41e.head), linux-image-halium11-l4v3nx-xiaomi-vayu, linux-bootimage-halium11-l4v3nx-xiaomi-vayu, qrtr-tools, libqmi-utils
-Filename: pool/current/main/binary-arm64/adaptation-droidian-xiaomi-vayu-lts-api30_4+git20260219215731.d82d41e.head_arm64.deb
-Size: 2244
-MD5sum: 3e48d8825c7e1f4e8bee06bc656b044f
-SHA1: 6aa013cba60ea6005babbde1e9d7bcaf8abd8a1c
-SHA256: 917e63fd9e66c4f09c6b0b1d6cb28236a47f8e81f6f5b46d2855ba5e30ba78bb
-SHA512: c8a429977f96887392abd15ecfc7d7939adbf5df8ddd5da6facd7e33deb243ecf0fb2286cb0ddd718b04034cb84355eaaea523665a50f1de3301e853af2c263a
+Depends: adaptation-hybris-api30-phone, adaptation-droidian-xiaomi-vayu-lts-api30-configs (= 5+git20260222220156.56f6035.head), linux-image-halium11-l4v3nx-xiaomi-vayu, linux-bootimage-halium11-l4v3nx-xiaomi-vayu, qrtr-tools, libqmi-utils
+Filename: pool/current/main/binary-arm64/adaptation-droidian-xiaomi-vayu-lts-api30_5+git20260222220156.56f6035.head_arm64.deb
+Size: 2256
+MD5sum: ae46e6f10c5a0a006168ed7e69fa5de0
+SHA1: 6811f7028a34792463a1a32a2e081c029b79a86d
+SHA256: a67c17fdd1da916deb42f19a71efaaaedc23cd8067058bb1d6fe2110a0a3cdff
+SHA512: b47602b9e6c95bcc899e293d0086ffc9278b16b4268e80108317681328123229a214a85609fe16611d5371a9a7e8aca0ffdf21371edf3f6cfd495b7fdb588fc8
 Description: Community adaptation for xiaomi-vayu LTS api30 - metapackage
-X-Droidian-Vcs-Revision: d82d41e4d330a50cdb8081b895e83484df397ab8
+X-Droidian-Vcs-Revision: 56f6035a2da1620702267cbdb1bf7b85965c69b1
 X-Droidian-Vcs-Url: https://github.com/droidian-xiaomi-vayu-lts/adaptation-droidian-xiaomi-vayu-lts-api30.git
 
 Package: droidian-camera-qt6-dbgsym
