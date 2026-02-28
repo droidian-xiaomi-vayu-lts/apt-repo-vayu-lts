@@ -1,0 +1,20 @@
+Package: lxc-android
+Architecture: all
+Version: 1:39+b1+git20260227191238.825b349.fix.system.overlay.on.android.root.too
+Priority: optional
+Section: libs
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
+Installed-Size: 66
+Depends: adduser, cpio, lxc, libc-bin, halium-wrappers (>= 5), parse-android-dynparts, dmsetup
+Filename: pool/next/main/binary-arm64/lxc-android_39+b1+git20260227191238.825b349.fix.system.overlay.on.android.root.too_all.deb
+Size: 8936
+MD5sum: 97aa28d0fe37fcd5e9f5cff4fb2ce01a
+SHA1: 78dd839d3e43968ec1491e0f15bdc7218ea5ecde
+SHA256: 540c935eaca9df935c744bbe6e1f798b2455e3c2651be140c34928c21a03e7ce
+SHA512: f3a70afc98043cea9d691fe0642c124a1da6c6139de96d53ffa059ebb56df1a0653f6e93e6fde03710a3d4543924b00bf3ceb7c0b8e0fafb62bbcf2c5802dfbf
+Homepage: https://github.com/Halium/lxc-android
+Description: lxc configuration for starting android
+ This package provides the configuration for starting android in lxc
+X-Droidian-Vcs-Revision: 825b34943b22e37a0f613f09fcd25d394b95a74b
+X-Droidian-Vcs-Url: https://github.com/berbascum/droidian-lxc-android
+

@@ -15,6 +15,40 @@ SHA256: 477aa0fc4cee930b7fc2b117549c9b17b6560e7e7ff24d2a6b9f7daa96c4656e
 SHA512: 5a49e7d9aa73cf3f0d97f4797692fef51e2aad5313dc4090e997749a20161b732a71fbbc226d597813bc30c04e2f0ff5e533e9fa08ed66b7603f95a4273a280c
 Description: APT current configs for the Droidian Unofficial Xiaomi POCO X3 Pro (vayu) - LTS port
 
+Package: apt-config-droidian-vayu-lts-next
+Architecture: all
+Version: 1+git20260228232854.c573dff.main.current
+Priority: optional
+Section: misc
+Maintainer: berbascum <berbascum@ticv.cat>
+Installed-Size: 20
+Pre-Depends: apt
+Depends: ca-certificates, apt-keyrings-droidian-vayu-lts
+Filename: pool/current/main/binary-all/apt-config-droidian-vayu-lts-next_1+git20260228232854.c573dff.main.current_all.deb
+Size: 2768
+MD5sum: c3ced69dc851a821bed98513c51275d8
+SHA1: c32212d68eb3454a2cc3a2967edd4a99bc957c86
+SHA256: 98e35f28514f2a41a484cd6b7ca9634ed04b19e8dee1688ecf01459f30d3f3f9
+SHA512: 07e4cfab21c814ea55a1dfbb3b43e3ec18397a5d474c1bcd2656829769db7768ff45fad6c24d386dc5ad9f74966a0ed35c0c812f9a428fbaef3072793e3a449d
+Description: APT next configs for the Droidian Unofficial Xiaomi POCO X3 Pro (vayu) - LTS port
+
+Package: apt-config-droidian-vayu-lts-testing
+Architecture: all
+Version: 1+git20260228235400.2da9ce8.main.current
+Priority: optional
+Section: misc
+Maintainer: berbascum <berbascum@ticv.cat>
+Installed-Size: 20
+Pre-Depends: apt
+Depends: ca-certificates, apt-keyrings-droidian-vayu-lts
+Filename: pool/current/main/binary-all/apt-config-droidian-vayu-lts-testing_1+git20260228235400.2da9ce8.main.current_all.deb
+Size: 2772
+MD5sum: 9785f493037b39aec88e581678489eec
+SHA1: d3ef181802c194aee90e9a90ba479fb9578b9ed7
+SHA256: e688406f773bd91a480e30aa728fda6b9228380a56afa133c9d1b0c78e3de624
+SHA512: a19009259fb62322f0f3713d9a1892aa73248c71b0ac04d4635922f907cc1be95f6bfbdba0ccde290551102e500da6b5887f3e996fb9d6c4c3b3539c7a4192b4
+Description: APT testing configs for the Droidian Unofficial Xiaomi POCO X3 Pro (vayu) - LTS port
+
 Package: apt-keyrings-droidian-vayu-lts
 Architecture: all
 Version: 2+git20260216184519.8017c8f.droidian.current
