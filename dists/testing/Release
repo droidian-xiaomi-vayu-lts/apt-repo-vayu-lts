@@ -1,13 +1,13 @@
 Architectures: all arm64 amd64
 Codename: testing
 Components: amd64
-Date: Sat, 28 Feb 2026 23:32:22 +0000
+Date: Sun, 01 Mar 2026 00:14:24 +0000
 Description: Droidian Unofficial vayu LTS git apt repository for release testing
 Label: droidian-xiaomi-vayu-lts
 Origin: droidian-xiaomi-vayu-lts
 Suite: testing
 MD5Sum:
- 48276ed81836dadd05910b656613f1f2              266 Release
+ 1e9d5f508df45f2e64cff7931d586e8a              266 Release
  0902e5a0182062319472ac442793db1b               28 main/Contents-all.bz2
  e62ff0123a74adfc6903d59a449cbdb0               40 main/Contents-all.gz
  0902e5a0182062319472ac442793db1b               28 main/Contents-amd64.bz2
@@ -24,7 +24,7 @@ MD5Sum:
  556f1f58f04443e866150ecf5c09e7e9             3269 main/binary-arm64/Packages.bz2
  aaf3948dc77a345bcc169cda25773c0a             2961 main/binary-arm64/Packages.gz
 SHA1:
- f07a8257277146152c19137a2339a2b15a67e431              266 Release
+ 6794bf12719970e9e12782b579b503306da311ae              266 Release
  dcddcbc89128ee4d36fe584b2a982131e8f70d53               28 main/Contents-all.bz2
  e3f4c61a216c2c9613cd3bdd1420dde095b296b3               40 main/Contents-all.gz
  dcddcbc89128ee4d36fe584b2a982131e8f70d53               28 main/Contents-amd64.bz2
@@ -41,7 +41,7 @@ SHA1:
  9e4076eebe8556765cce2d14d50a12c360f36751             3269 main/binary-arm64/Packages.bz2
  8a6c372030b9ddfe216c9be5492263bb03bf3efb             2961 main/binary-arm64/Packages.gz
 SHA256:
- 07fa870819fe4ec2880d8ab63d11d413f8bc9a4215cd39bb6b32720c99c6a2c7              266 Release
+ d3457144dab7ea9b3e501381e0a4abce67bbad7b883a55b87d0970b275c59304              266 Release
  f43ffa97e8272d81422a41aa2b1599c418bd3c361fe23ebdd391676379dfe771               28 main/Contents-all.bz2
  e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4               40 main/Contents-all.gz
  f43ffa97e8272d81422a41aa2b1599c418bd3c361fe23ebdd391676379dfe771               28 main/Contents-amd64.bz2
@@ -58,7 +58,7 @@ SHA256:
  68a4e51bc46c5e99901b6cacbe3d9ba1cdf3101346a6253c019893b7d82fe519             3269 main/binary-arm64/Packages.bz2
  e09cac094000c7f6282d35a9d9f84ce3a3b4e8b94fd2db180b220a0e12383e11             2961 main/binary-arm64/Packages.gz
 SHA512:
- d5c0f2d894fa956ae9ddccf79bd1062e0951426e3c378d9c22f3a082bc3f18180251e977198f31e47a177978e436c212a9307966627bc3457a598da821516408              266 Release
+ 05450b89ebccb058cae9e83a1a8b6b3190f82b7ad55a881a2324cd1dcbc17631ae1ac168a5bd74e2a998214a119fc381fd3925da2968f6619106041bce3a92d3              266 Release
  37a17e9952eed92a1dfa196475721d1f8a96a58aac1a17e46a5df6b466a26655f151cc0b3b3005e442cd01feadf28ca095df66df47b7582992e1ceacc2cc632f               28 main/Contents-all.bz2
  4837cb0c747b88cd66d2e8a7cb7fe2808a8fd9f967e467810a0dddfee9befdef8891f3be5c26e319d2ac8a869cb9e39d5ba1fb484db73231cec9fd66d1d5df33               40 main/Contents-all.gz
  37a17e9952eed92a1dfa196475721d1f8a96a58aac1a17e46a5df6b466a26655f151cc0b3b3005e442cd01feadf28ca095df66df47b7582992e1ceacc2cc632f               28 main/Contents-amd64.bz2
