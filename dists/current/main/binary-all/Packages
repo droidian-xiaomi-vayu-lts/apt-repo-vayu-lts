@@ -66,3 +66,29 @@ SHA256: 8c49be818dacb24a8bc2de3ddc5dfb5c87e8f04682ffdf1bbef373a515d6aee3
 SHA512: 999d3247bfe5248ff6284d75f25efee8d8440e34c88c91c1a4058f2d944d085ebe53d7821dede1362ab852dd52cb54af173069076db0488a35c29fa7ed1b4070
 Description: APT keyrings for the Droidian Unofficial Xiaomi POCO X3 Pro (vayu) - LTS port
 
+Package: timezone-lxc-halium-push
+Architecture: all
+Version: 0.0.1+git20260303145616.7e9024d.main.testing
+Priority: optional
+Section: admin
+Maintainer: berbascum <berbascum@ticv.cat>
+Installed-Size: 29
+Depends: lxc, systemd
+Filename: pool/current/main/binary-all/timezone-lxc-halium-push_0.0.1+git20260303145616.7e9024d.main.testing_all.deb
+Size: 4168
+MD5sum: 8afa1425d0c1348c680dc76218437414
+SHA1: e127ff063526a9e7a3452a9428a92c896e409e1c
+SHA256: ee0497d2253c34c1f06112b3ea52c2398e730e45e3c2b1d5e9a357528458b37b
+SHA512: be477c2ab8d888bf20a62549d2add3e322de441119876b725ac2f718021cd3ba8ae6c68dd78976b0a3720feaf6268b4a06f42006af0e2bc223b8d2743abd8f45
+Homepage: https://github.com/berbascum/timezone-lxc-halium-push
+Description: Sync timezone from Linux to the Halium lxc container
+ .
+ Uses Android's property system (persist.sys.timezone) to set the
+ timezone in the container.
+ .
+ Features:
+  - Monitors D-Bus SetLTimezone runtime changes
+  - Updates the timezone in the Halium container
+  - Uses Android-native property system
+  - No container restart required
+
